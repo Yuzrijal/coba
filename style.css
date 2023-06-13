@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* BODY */
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  
+  /* TOPNAVBAR */
+  .navbar {
+    display: flex;
+    background-color: rgb(156, 156, 156);
+    float: auto;
+    justify-content: end;
+  }
+  
+  /* STYLE LINK NAVBAR */
+  .navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  /* GANTI GRADASI */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Column container */
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+ 
+  /* KIRI */
+  .side {
+    flex: 40%;
+    background-color: #86d0e1;
+    padding: 40px;
+  }
+  
+  /* Main column */
+  .main {
+    flex: 60%;
+    background-color: white;
+    padding: 20px;
+  }
+   
+  /* TABEL */
+  .table {
+    border-collapse: collapse;
+}
+table, tr, td {
+    border: 0px solid black;
+}
+tr, td {
+    padding: 5px;
+
+}
+tr {
+    background-color: #86d0e1;
+   color: black;
+}
+  
+  /* Footer */
+  .footer {
+    padding: 3px;
+    text-align: center;
+    background: rgba(129, 129, 129, 0.993);
+  }
+  
